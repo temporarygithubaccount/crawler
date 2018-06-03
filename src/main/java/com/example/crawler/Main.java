@@ -11,12 +11,6 @@ import org.apache.logging.log4j.Logger;
 import java.net.MalformedURLException;
 import java.util.function.Supplier;
 
-/**
- * Ideally, write it as you would a production piece of code.
- * Bonus points for tests and making it as fast as possible!
- * This is a short practical exercise that you should spend no more than a few hours on.
- */
-
 public class Main {
 
     private static final Logger logger = LogManager.getLogger();
