@@ -11,7 +11,7 @@ public class PageCrawlerFactory {
     }
 
     //still some hardcoded dependencies here, it would have been less ugly
-    //using a dependency injection framework (e.g. Spring) or adding a PageFetcherFactori
+    //using a dependency injection framework (e.g. Spring) or adding a PageFetcherFactory
     public PageCrawler get(String host, String protocol) {
         return new PageCrawler(
             new PageFetcher(),
